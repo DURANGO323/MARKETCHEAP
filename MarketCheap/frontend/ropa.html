@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="/frontend/css/ropa.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="/frontend/index.html">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a nuestra tienda de ropa</h2>
+            <p>Encuentra las mejores prendas para tu estilo.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <img src="ruta-de-la-imagen.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>Precio: $XX.XX</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Agrega más productos aquí -->
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros:</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

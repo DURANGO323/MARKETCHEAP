@@ -97,7 +97,7 @@ input[type="submit"]{
 
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover:not{
     border-color: #adadad;
     transition: .5s;
 }

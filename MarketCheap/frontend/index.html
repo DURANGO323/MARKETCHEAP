@@ -2,35 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MARKET CHEAP</title>
-    <link rel="stylesheet" href="/frontend/css/Estilos.css">
+    <title>MarketCheap</title>
+    <link rel="stylesheet" href="/frontend/css/index.css">
 </head>
 <body>
- <header class="header">
-    <div class="logo-nav-container">
-        <a href="#"><img src="LOGO2.png" alt="logo"></a>
-        <nav class="navegation"> 
-         <ul>
-           <li><a href="" class="nav-link">Ropa</a></li>
-           <li><a href="" class="nav-link">Comida</a></li>
-           <li><a href="" class="nav-link">Cosmeticos</a></li>
-           <li><a href="" class="nav-link">deportes</a></li>
-           <li><a href="" class="nav-link">calzado</a></li>
-         </ul>
-       </nav>
-     </div>
- </header>
-  <div class="container">
-    <div class="menu">
-     
+    <header>
+      <div class="logo">
+        <img src="LOGO2.png" alt="logo"/>
+      </div> 
+      <div class="container">
+        <input type="text" placeholder="buscar...">
+        <button><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+      </div>
 
-    </div>
-   
-  
-  </div> 
-
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/frontend/ropa.html">Ropa</a></li>
+            <li><a href="#">Deportes</a></li>
+            <li><a href="#">Alimentos</a></li>
+            <li><a href="/frontend/electrodomesticos.html">Electrodomesticos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>Bienvenido a nuestra tienda en línea</h1>
+        </section>
+        <section class="products">
+            <div class="product">
+                <img src="https://luisgyg.com/wp-content/uploads/2016/11/91uhtx3ENIL._SL1500_.jpg" alt="Producto 1">
+                <h2>Producto 1</h2>
+                <p>Precio: $50.00</p>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/R.a243c72be94e93f1399f3399b06c7677?rik=hrhQ9%2b%2fJ1SSPHA&riu=http%3a%2f%2fwww.riskmanagementmonitor.com%2fwp-content%2fuploads%2f2014%2f12%2fLaptop1.jpg&ehk=OfidPRNnM1a1JERcjUs9J725LwV1tT7YdUTEmeAi5Gw%3d&risl=1&pid=ImgRaw&r=0" alt="Producto 2">
+                <h2>Producto 2</h2>
+                <p>Precio: $35.00</p>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.FGT8byyuQLMMw2v7IxjD6QHaHa?pid=ImgDet&rs=1" alt="Producto 3">
+                <h2>Producto 3</h2>
+                <p>Precio: $20.00</p>
+            </div>
+            <!-- Puedes agregar más productos aquí -->
+        </section>
+    </main>
+    <footer>
+        <p>Pie de Página - Todos los derechos reservados &copy; 2023</p>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/emmet/2.4.6/emmet.es.js"></script>
 </body>
-
 </html>

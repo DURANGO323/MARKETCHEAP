@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #838181;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.logo img{
+  height: 75px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos para el home */
+.hero {
+    background-image: url('imagen_fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.product p {
+    color: #777;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.container{
+  position: relative;
+}
+
+input{
+  width: 350px;
+  padding: 10px;
+  padding-right: 35px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  font-size: irem;
+}
+
+button{
+  background-color: black;
+  padding: 10px 15px;
+  position: absolute;
+  border: 0;
+  top: 0;
+  bottom: 0;
+  right: 0%;
+  margin: auto;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer
+}
+
+button:hover{
+  background-color: rgba(0 0 0 / .2)
+}

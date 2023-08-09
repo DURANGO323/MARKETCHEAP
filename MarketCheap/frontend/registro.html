@@ -7,29 +7,35 @@
     <title>MARKET CHEAP</title>
     <link rel="stylesheet" href="/frontend/css/registro.css">
 </head>
-
 <body>
-  <div class="logo">
-   <img src="LOGO2.png" alt="logo"/>
-  </div> 
-    <div class="registro">
-    <h3>INICIA SESION O REGISTRATE</h3>
-    <form method="post">
-            <div class="username"> 
-              <input type="text">
-              <label>Nombre de usuario</label>
-            </div>
-            <div class="username">
-              <input type="password" required>
-              <label>Contraseña</label> 
-            </div>
-            <div class="recordar">¿Olvido su contraseña?</div>
-            <a href="index.html"></a> <input type="submit" value="iniciar">
-            <div class="registrarse">
-                inicia sesion o <a href="inicio.html">registrate</a>
-            </div>
-        </form>
-    
-    </div>
+    <div class="logo">
+        <img src="LOGO2.png" alt="logo"/>
+       </div> 
+         <div class="registro">
+         <h3>REGISTRATE</h3>
+         <form action="/backend/registro.php" method="POST">
+                 <div class="username"> 
+                   <input type="text" name="nombre">
+                   <label>Nombre de usuario</label>
+                 </div>
+                 <div class="username"> 
+                  <input type="email" name="correo">
+                  <label>Correo electronico</label>
+                </div>
+                 <div class="username">
+                   <input type="password" required name="contraseña">
+                   <label>Contraseña</label> 
+                 </div>
+                 <div class="username">
+                    <input type="password" required>
+                    <label>Confirmar contraseña</label> 
+                  </div>
+                 <input type="submit" value="crear cuenta">
+                 <div class="registrarse">
+                     ¿Ya tienes una cuenta? <a href="inicio.html">login</a>
+                 </div>
+             </form>
+         
+         </div>
 </body>
 </html>
